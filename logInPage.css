@@ -1,0 +1,83 @@
+
+body{
+    background-color: white;
+}
+.shapeBG{
+    z-index: -1;
+    display: block;
+    position: absolute;
+    left: 50%; 
+    transform: translate(-50%,0); 
+    margin-top: -10%;
+}
+
+.loginUser{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    background: white;
+    text-align: left;
+    outline:none;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.h1Login{
+    color: #03a075;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+.h1Thick{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.grouphealthCareh1{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.btnSubmit:hover {
+    text-decoration: none;
+    color: #03a075;
+    background-color: rgb(130, 248, 124);
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.alreadyUser{
+    text-align: center;
+    color: #03a075;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.btnSubmit a{
+    color: white;
+}
+.btnSubmit a:hover{
+    text-decoration: none;
+    color: #03a075;
+    transition: 0.3s;
+}
+.alreadyUser{
+    text-align: center;
+    color: #14b187;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.alreadyUser a{
+    color: #22d8a8;
+    transition: 0.3s;
+}
+.alreadyUser a:hover{
+    text-decoration: none;
+    color: #9bffe4;
+    transition: 0.3s;
+}
+.logoSmall{
+    max-width: 10%;
+}
+input:focus::placeholder{
+    color:transparent;
+}
