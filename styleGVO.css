@@ -244,6 +244,7 @@ body{
   border-radius: 9px;
   transition: 1s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  outline: none;
 }
 .img-landing{
   width: 384px;
@@ -262,7 +263,7 @@ body{
   transition: 0.25s;
 }
 .landing-Link:hover{
-  color: #03a075;
+  color: #00f1b1;
   text-decoration: none;
   transition: 0.25s;
 }
